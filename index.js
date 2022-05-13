@@ -29,3 +29,7 @@ function makePassword() {
     }
     return password
 }
+
+function clicked(value) {
+    navigator.clipboard.writeText(value);
+}
